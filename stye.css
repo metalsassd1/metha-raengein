@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  color: rgb(247, 139, 139);
+  background: #333;
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+img {
+  position: absolute;
+}
+
+h1,
+h2 {
+  margin: 2rem 2rem 1rem;
+  padding: 0;
+}
+
+p {
+  margin: 0 2rem 2rem;
+  padding: 0;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+.teaser {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0 0 20px rgb(0, 0, 0);
+  text-align: center;
+  font-size:  2rem;
+}
+
+.teaser h1 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.teaser .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+}
+
+.contact{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 250px;
+}
+.contact01{
+  position: absolute;
+  bottom: 22px;
+  left: 26%;
+  width: 200px;
+}
+.contact02{
+  position: absolute;
+  bottom: 0px;
+  left: 42%;
+  width: 100px;
+}
